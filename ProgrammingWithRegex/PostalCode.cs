@@ -13,7 +13,7 @@ namespace ProgrammingWithRegex
         const string PIN_CODE_PATTERN2 = "^[0-9]{6}$";
 
 
-        public void TestPinCode(string input)
+        public void TestPinCode1(string input)
         {
             if (Regex.IsMatch(input, PIN_CODE_PATTERN))
                 Console.WriteLine("Regex is matched");
