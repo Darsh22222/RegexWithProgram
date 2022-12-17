@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProgrammingWithRegex
 {
-    internal class PostalCode
+    public class PostalCode
     {
         const string PIN_CODE_PATTERN = "^[0-9]{6}$";
         const string PIN_CODE_PATTERN2 = "^[0-9]{6}$";
