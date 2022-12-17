@@ -10,7 +10,7 @@
             while (choice)
             {
                 Console.WriteLine("1. Check Pattern to validate Postal Code\n2.check pattern alphabet befor postal code\n3. Restrict postal Code at ending" +
-                    "\n4.Postal Code With Space\n5.EmailValidation\n6. Exit");
+                    "\n4.Postal Code With Space\n5.EmailValidation\n6.Email Validate Second part\n7. Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 PostalCode code = new PostalCode();
                 Email email = new Email();
@@ -31,6 +31,9 @@
                         break;
                     case 5:
                         email.EmailPartFirst();
+                        break;
+                    case 6:
+                        email.EmailPartSecond();
                         break;
                     default:
                         choice = false;
